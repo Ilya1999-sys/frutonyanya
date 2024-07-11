@@ -224,13 +224,14 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: var(--gap-xl);
+    margin-top: 20px;
 }
 .header2 {
     align-self: stretch;
     position: relative;
-    font-size: 40px;
     line-height: 90%;
     margin: 0;
+    font-size: 40px;
 }
 .mashed-chicken-icon {
     width: 225px;
