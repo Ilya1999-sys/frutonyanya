@@ -228,6 +228,7 @@
 .header2 {
     align-self: stretch;
     position: relative;
+    font-size: 40px;
     line-height: 90%;
     margin: 0;
 }
