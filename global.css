@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+
+
+:root {
+   
+    /* fonts */
+    --text-button: Rubik;
+
+
+   
+    /* font sizes */
+    --text-button-size: 20px;
+    --text-15r-size: 15px;
+    --h2-size: 40px;
+    --h1-size: 120px;
+   
+    /* Colors */
+    --color-goldenrod: #f5c451;
+    --color-darkslategray-100: #023748;
+   
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-5xl: 24px;
+    --gap-base: 16px;
+    --gap-5xs: 8px;
+   
+    /* Paddings */
+    --padding-9xs: 4px;
+    --padding-base: 16px;
+    --padding-5xs: 8px;
+   
+    /* Border radiuses */
+    --br-8xs: 5px;
+    --br-81xl: 100px;
+   
+}
+
+
