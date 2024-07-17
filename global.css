@@ -1,45 +1,32 @@
 body {
-    margin: 0;
-    line-height: normal;
+	margin: 0;
+	line-height: normal;
 }
-
-
 
 
 :root {
-   
-    /* fonts */
-    --text-button: Rubik;
-
-
-   
-    /* font sizes */
-    --text-button-size: 20px;
-    --text-15r-size: 15px;
-    --h2-size: 40px;
-    --h1-size: 120px;
-   
-    /* Colors */
-    --color-goldenrod: #f5c451;
-    --color-darkslategray-100: #023748;
-   
-    /* Gaps */
-    --gap-xl: 20px;
-    --gap-5xl: 24px;
-    --gap-base: 16px;
-    --gap-5xs: 8px;
-   
-    /* Paddings */
-    --padding-9xs: 4px;
-    --padding-base: 16px;
-    --padding-5xs: 8px;
-   
-    /* Border radiuses */
-    --br-8xs: 5px;
-    --br-81xl: 100px;
-   
+	
+	--text-button-size: 20px;
+	--text-normal-size: 15px;
+	--h2-size: 40px;
+	--h1-size: 120px;
+	
+	--color-accent: #f5c451;
+	--color-text: #023748;
+	
+	--gap-normal: 20px;
+	--gap-medium: 16px;
+	--gap-min: 8px;
+	--gap-big: 24px;
+	
+	
+	--padding-bottom-header: 40px;
+	--padding-blocks: 80px;
+	--padding-big: 16px;
+	--padding-min: 4px;
+	--padding-medium: 8px;
+	
+	--border-radius-normal: 5px;
+	--border-radius-large: 100px;
+	
 }
-
-
-
-
