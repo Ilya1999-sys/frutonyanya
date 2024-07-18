@@ -230,6 +230,7 @@
     position: relative;
     line-height: 100%;
     font-weight: 600;
+	padding-bottom: -4px;
     }
     .text-phone-order {
     line-height: 130%;
