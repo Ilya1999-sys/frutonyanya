@@ -226,27 +226,38 @@
 	gap: 12px;
 }
 .order-header {
-    align-self: stretch;
-    position: relative;
-    line-height: 100%;
-    font-weight: 600;
-	padding-bottom: -4px;
-    }
-    .text-phone-order {
-    line-height: 130%;
-    display: inline-block;
-    width: 218px;
-    }
-    .phone-input {
-    align-self: stretch;
-    position: relative;
-    border-bottom: 1px solid #023748;
-    box-sizing: border-box;
-    height: 23px;
-    font-size: 15px;
-    color: rgba(2, 55, 72, 0.6);
-    }
-    .button-order {
+	align-self: stretch;
+	position: relative;
+	line-height: 100%;
+	font-weight: 600;
+	}
+	.text-input {
+	position: absolute;
+	top: 0px;
+	right: 141px;
+	line-height: 130%;
+	display: inline-block;
+	width: 218px;
+	}
+	.phone-input {
+	width: 359px;
+	position: relative;
+	border-bottom: 1px solid #023748;
+	box-sizing: border-box;
+	height: 23px;
+	font-size: 15px;
+	color: rgba(2, 55, 72, 0.6);
+	}
+	.header-input {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 16px;
+	}
+ .button-order {
+	margin-top: 8px;
     border-radius: 5px;
     background-color: #f5c451;
     display: flex;
@@ -260,7 +271,7 @@
     border: none;
     color: #023748;
     }
-    .order {
+.order {
     flex: 1;
     width: 100%;
     position: relative;
@@ -268,7 +279,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-big);
     text-align: left;
     font-size: 20px;
     color: #023748;
