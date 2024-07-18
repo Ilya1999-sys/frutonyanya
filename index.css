@@ -18,9 +18,7 @@
 	gap: var(--gap-big);
 }
 .button-sign-up {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	float: right;
 	border-radius: var(--border-radius-normal);
 	border: 1px solid var(--color-text);
 	display: flex;
@@ -34,9 +32,6 @@
     line-height: 135%;
 }
 .logo-icon {
-	position: absolute;
-	top: 0px;
-	left: 0px;
 	width: 38px;
 	height: 38px;
 	overflow: hidden;
@@ -179,9 +174,6 @@
 	line-height: 130%;
 }
 .phone {
-	position: absolute;
-	top: 0px;
-	left: 0px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -189,9 +181,7 @@
 	gap: var(--gap-min);
 }
 .mail {
-	position: absolute;
-	top: 40px;
-	left: 0px;
+	padding-top: var(--padding-big);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -208,9 +198,7 @@
 	padding: var(--padding-min);
 }
 .social-networks {
-	position: absolute;
-	top: 80px;
-	left: 0px;
+	padding-top: var(--padding-big);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -256,14 +244,6 @@
     height: 23px;
     font-size: 15px;
     color: rgba(2, 55, 72, 0.6);
-    }
-    .header-input {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-medium);
     }
     .button-order {
     border-radius: 5px;
